@@ -11,7 +11,7 @@ sheet.title
 id = 'TCG Tournament TEST'
 
 sheet.title = id
-test1 = ["Test Upload,"Test Upload","3","4"]
+test1 = ["Test Upload","Test Upload","3","4"]
 test2 = [" for pull request","p2","p3","p4"]
 
 i = 1
