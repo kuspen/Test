@@ -11,17 +11,18 @@ sheet.title
 id = 'TCG Tournament TEST'
 
 sheet.title = id
-test1 = ["Test Upload","Test Upload","3","4"]
-test2 = [" for pull request","p2","p3","p4"]
+
+IDs = ["1","2","3","4"]
+Player = ["p1","p2","p3","p4"]
 
 i = 1
-for t1 in test1:
-    sheet.cell(row=i,column=2).value = t1
+for name in Player:
+    sheet.cell(row=i,column=2).value = name
     i = i+1
 
 k = 1
-for t2 in test2:
-    sheet.cell(row=i,column=1).value = t2
+for ids in IDs:
+    sheet.cell(row=i,column=1).value = ids
     k = k+1
 
 #保存
